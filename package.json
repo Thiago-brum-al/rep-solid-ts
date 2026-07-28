@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/index.js",
+    "start": "node dist/srp/cart.js",
     "lint": "eslint src/",
     "lint:fix": "eslint src/ --fix",
     "lint:strict": "eslint src/ --max-warnings 0",
@@ -19,6 +19,7 @@
   "devDependencies": {
     "eslint-config-prettier": "^10.1.8",
     "prettier": "^3.9.6",
+    "tsx": "^4.23.1",
     "typescript": "^5.9.3"
   },
   "dependencies": {
